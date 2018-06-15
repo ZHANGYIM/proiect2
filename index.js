@@ -1,4 +1,6 @@
-var oLi = document.getElementsByTagName("li");
+var oP = document.getElementById("options");
+var oL = document.getElementById("list");
+var oLi = oP.getElementsByTagName("li");
 var oBox = document.getElementsByClassName("box");
 for(var i=0;i<oLi.length;i++){
     oLi[i].index=i;
